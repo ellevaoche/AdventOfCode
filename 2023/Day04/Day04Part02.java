@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/4
 
@@ -22,7 +22,7 @@ class Day04Part02 {
         ArrayList<Card> cards = new ArrayList<>();
 
         // read all Lines from file Day03.txt, map them to a Card Record and add them to the cards list
-        Files.readAllLines(Path.of("Input/Day04.txt")).forEach(line -> {
+        Files.readAllLines(Path.of("Day04.txt")).forEach(line -> {
 
             // Extract the card id from the line
             int cardId = Integer.parseInt(findIntegers(line.substring(0, line.indexOf(":"))).get(0));

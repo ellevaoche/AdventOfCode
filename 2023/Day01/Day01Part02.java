@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/1
 
@@ -13,7 +13,7 @@ class Day01Part02 {
         AtomicInteger result = new AtomicInteger();
 
         // read all Lines from file Day01.txt
-        Files.readAllLines(Path.of("Input/Day01.txt")).forEach(line -> {
+        Files.readAllLines(Path.of("Day01.txt")).forEach(line -> {
 
             // find in each line the first digit and the last digit, concat them, parse to int and add to result.
             // Digits could also be spelled out with letters: one, two, three, four, five, six, seven, eight, nine

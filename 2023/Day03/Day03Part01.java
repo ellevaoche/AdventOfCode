@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/3
 
@@ -15,7 +15,7 @@ class Day03Part01 {
 
 
         // read all Lines from file Day03.txt
-        List<String> lines = Files.readAllLines(Path.of("Input/Day03.txt"));
+        List<String> lines = Files.readAllLines(Path.of("Day03.txt"));
 
         // Iterate over all lines and add the symbols and the numbers to their corresponding lists
         List<Symbol> symbols = new ArrayList<>();

@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/6
 
@@ -18,7 +18,7 @@ class Day06Part02 {
     public static void main(String... args) throws Exception {
 
         // read all 2 lines from file Day06txt, extract numbers,add them to line1 and line2, create game and add it to games
-        List<String> lines = Files.readAllLines(Path.of("Input/Day06.txt"));
+        List<String> lines = Files.readAllLines(Path.of("Day06.txt"));
         Game game = new Game(findNumberAndConcatThem(lines.get(0)), findNumberAndConcatThem(lines.get(1)));
 
 

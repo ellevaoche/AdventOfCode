@@ -4,7 +4,7 @@ Central repository for my Advent of Code solutions, organized by year.
 
 ## Structure
 
-- **2025**: Solutions each day a different programming language
+- **2025**: Polyglot solutions (each day a different language)
 - **2023**: Java solutions
 
 ## Years

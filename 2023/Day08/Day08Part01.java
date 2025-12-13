@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/8
 
@@ -22,7 +22,7 @@ class Day08Part01 {
     public static void main(String... args) throws Exception {
 
         // read from file Day08.txt. Categories are separated by an empty line.
-        String fileContent = Files.readString(Path.of("Input/Day08.txt"));
+        String fileContent = Files.readString(Path.of("Day08.txt"));
         ArrayList<String> textBlocks = new ArrayList<>(Arrays.asList(fileContent.split("\r\n\r\n")));
 
         // Extract Direction Instructions

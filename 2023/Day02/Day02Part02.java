@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/2
 
@@ -16,7 +16,7 @@ class Day02Part02 {
         HashMap<Integer, ArrayList<HashMap<String, Integer>>> games = new HashMap<>();
 
         // read all Lines from file Day02.txt and map them to the DataStructure
-        Files.readAllLines(Path.of("Input/Day02.txt")).forEach(line -> {
+        Files.readAllLines(Path.of("Day02.txt")).forEach(line -> {
 
             //Examples:
             // Game 1: 4 green, 2 blue; 1 red, 1 blue, 4 green; 3 green, 4 blue, 1 red; 7 green, 2 blue, 4 red; 3 red, 7 green; 3 red, 3 green

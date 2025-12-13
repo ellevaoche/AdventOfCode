@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/6
 
@@ -21,7 +21,7 @@ class Day06Part01 {
         ArrayList<Game> games = new ArrayList<>();
 
         // read all 2 lines from file Day06txt, extract numbers,add them to line1 and line2, create game and add it to games
-        List<String> lines = Files.readAllLines(Path.of("Input/Day06.txt"));
+        List<String> lines = Files.readAllLines(Path.of("Day06.txt"));
         ArrayList<Integer> line1 = new ArrayList<>(findNumber(lines.get(0)));
         ArrayList<Integer> line2 = new ArrayList<>(findNumber(lines.get(1)));
         for (int i = 0; i < line1.size(); i++) {

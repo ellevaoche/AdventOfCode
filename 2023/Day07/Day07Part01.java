@@ -1,4 +1,4 @@
-package advent;
+// package advent;
 
 // https://adventofcode.com/2023/day/7
 
@@ -19,7 +19,7 @@ class Day07Part01 {
         ArrayList<Hand> hands = new ArrayList<>();
 
         // read all Lines from file Day07.txt and map them to a Hand
-        Files.readAllLines(Path.of("Input/Day07.txt")).forEach(line -> {
+        Files.readAllLines(Path.of("Day07.txt")).forEach(line -> {
 
             //Examples:
             // 32T3K 765
