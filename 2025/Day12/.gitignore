@@ -1,0 +1,9 @@
+# Go
+solution
+solution_part2
+bin/
+
+# Ruby
+.bundle/
+vendor/bundle/
+Gemfile.lock
