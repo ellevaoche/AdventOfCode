@@ -6,39 +6,29 @@ Compare two lists of location IDs to help The Historians reconcile their notes.
 
 **Task:** Calculate the total distance between two lists.
 
-1. Sort both lists independently
-2. Pair smallest with smallest, second-smallest with second-smallest, etc.
-3. Calculate absolute difference for each pair
-4. Sum all differences
-
-**Example:**
+Sort both lists, pair them up, and sum absolute differences:
+```go
+slices.Sort(left)
+slices.Sort(right)
+for i := range left {
+    total += abs(left[i] - right[i])
+}
 ```
-Left:  3, 4, 2, 1, 3, 3
-Right: 4, 3, 5, 3, 9, 3
 
-Sorted Left:  1, 2, 3, 3, 3, 4
-Sorted Right: 3, 3, 3, 4, 5, 9
-
-Distances: 2 + 1 + 0 + 1 + 2 + 5 = 11
-```
+Example: `[1,2,3,3,3,4]` vs `[3,3,3,4,5,9]` → Distances: 2+1+0+1+2+5 = **11**
 
 ## Part 2
 
 **Task:** Calculate a similarity score.
 
-For each number in the left list, count how often it appears in the right list, then multiply and sum.
-
-**Example:**
+Count occurrences in right list, multiply each left value by its count:
+```go
+counts := make(map[int]int)
+for _, v := range right { counts[v]++ }
+for _, v := range left { score += v * counts[v] }
 ```
-3 appears 3 times in right → 3 * 3 = 9
-4 appears 1 time  in right → 4 * 1 = 4
-2 appears 0 times in right → 2 * 0 = 0
-1 appears 0 times in right → 1 * 0 = 0
-3 appears 3 times in right → 3 * 3 = 9
-3 appears 3 times in right → 3 * 3 = 9
 
-Similarity Score: 9 + 4 + 0 + 0 + 9 + 9 = 31
-```
+Example: `3` appears 3× in right → 3*3=9, sum all = **31**
 
 ## Usage
 
