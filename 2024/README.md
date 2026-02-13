@@ -21,3 +21,4 @@ All solutions for 2024 are implemented in **Go**.
 | 01  | Historian Hysteria | ⭐⭐ |
 | 02  | Red-Nosed Reports | ⭐⭐ |
 | 03  | Mull It Over | ⭐⭐ |
+| 04  | Ceres Search | ⭐⭐ |
