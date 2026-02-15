@@ -23,3 +23,4 @@ All solutions for 2024 are implemented in **Go**.
 | 03  | Mull It Over | ⭐⭐ |
 | 04  | Ceres Search | ⭐⭐ |
 | 05  | Print Queue | ⭐⭐ |
+| 06  | Guard Gallivant | ⭐⭐ |
