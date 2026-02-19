@@ -25,3 +25,4 @@ All solutions for 2024 are implemented in **Go**.
 | 05  | Print Queue | ⭐⭐ |
 | 06  | Guard Gallivant | ⭐⭐ |
 | 07  | Bridge Repair | ⭐⭐ |
+| 08  | Resonant Collinearity | ⭐⭐ |
