@@ -26,3 +26,4 @@ All solutions for 2024 are implemented in **Go**.
 | 06  | Guard Gallivant | ⭐⭐ |
 | 07  | Bridge Repair | ⭐⭐ |
 | 08  | Resonant Collinearity | ⭐⭐ |
+| 09  | Disk Fragmenter | ⭐⭐ |
