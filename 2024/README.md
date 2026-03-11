@@ -28,3 +28,4 @@ All solutions for 2024 are implemented in **Go**.
 | 08  | Resonant Collinearity | ⭐⭐ |
 | 09  | Disk Fragmenter | ⭐⭐ |
 | 10  | Hoof It | ⭐⭐ |
+| 11  | Plutonian Pebbles | ⭐⭐ |
